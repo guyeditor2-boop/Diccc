@@ -1,0 +1,3 @@
+/notify
+/status
+/latestvideo
