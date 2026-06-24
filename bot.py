@@ -26,4 +26,9 @@ async def on_ready():
     print(f"✅ Logged in as {bot.user}")
     print("🤖 Akira AI Bot is online!")
 
+
+import os
+
+TOKEN = os.getenv("TOKEN")
 bot.run(TOKEN)
+
